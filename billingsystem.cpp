@@ -1,6 +1,6 @@
 /*
-email--nikhiljha@gmail.com
-password--Nikhil@123
+email--devabhardwaj@gmail.com
+password--Deva@123
 
 */
 #include <iostream>
@@ -56,7 +56,7 @@ void shopping :: menu()
 			cout << "\n Enter Password :\t" ;
 			cin >> password ;
 			
-			if((email == "nikhiljha@gmail.com") && (password == "Nikhil@123"))
+			if((email == "devabhardwaj@gmail.com") && (password == "deva@123"))
 			{
 				administrator() ;
 			}
@@ -523,9 +523,9 @@ void shopping :: receipt()
 
 int main()
 {
-	shopping nikhil ;
+	shopping deva ;
 	
-	nikhil.menu() ;
+	deva.menu() ;
 
 	return 0 ;
 }
